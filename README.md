@@ -42,8 +42,8 @@ Repositori ini berisi dokumentasi, *mockup*, dan prototipe desain aplikasi yang 
 ---
 
 ### 📫 Let's Connect!
-- **LinkedIn:** [linkedin.com/in/username-anda](https://linkedin.com/in/username-anda)
-erasmariasutanto@gmail.com- **Email:** erasmariasutanto*(Silakan ubah link ini)*
+- **LinkedIn:** https://id.linkedin.com/in/nicko-richardo-498768427
+**Email:** erasmariasutanto@gmail.com**
 
 <br>
 
