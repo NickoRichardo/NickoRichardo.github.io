@@ -1,5 +1,3 @@
-# Portofolio
-
 # Hi there, I'm Nicko Richardo 👋
 
 ### 👨‍💻 Computer Science Student | Full-Stack Developer | UI/UX Enthusiast
@@ -22,10 +20,10 @@ Saya adalah mahasiswa *Computer Science* di **Bina Nusantara (BINUS) University*
 Berikut adalah beberapa proyek utama yang telah saya kembangkan:
 
 #### 🌱 [Tanemin](https://github.com/Kelompok4-PPTI20/tanemin.git)
-*Aplikasi web edukasi *urban farming* interaktif.*
+*Aplikasi web edukasi urban farming interaktif.*
 Proyek ini memfasilitasi pengguna untuk belajar bercocok tanam di area perkotaan dengan modul pembelajaran terpandu, manajemen katalog tanaman, pelacakan progres, serta fitur asisten AI bernama **"Growee"**.
 - 🔗 [Group Repository](https://github.com/Kelompok4-PPTI20/tanemin.git)
-- 🔗 [Personal Repository / Branch](https://github.com/NickoRichardo/tanemin.git)
+- 🔗 [Personal Repository](https://github.com/NickoRichardo/tanemin.git)
 
 #### 🗣️ Lingulu
 *Platform pembelajaran bahasa Inggris berbasis web dengan evaluasi pelafalan berbantuan AI.*
@@ -42,8 +40,8 @@ Repositori ini berisi dokumentasi, *mockup*, dan prototipe desain aplikasi yang 
 ---
 
 ### 📫 Let's Connect!
-- **LinkedIn:** https://id.linkedin.com/in/nicko-richardo-498768427
-**Email:** erasmariasutanto@gmail.com**
+- **LinkedIn:** [Nicko Richardo](https://id.linkedin.com/in/nicko-richardo-498768427)
+- **Email:** [erasmariasutanto@gmail.com](mailto:erasmariasutanto@gmail.com)
 
 <br>
 
