@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicko Richardo | Portfolio</title>
+    <style>
+        :root {
+            --primary: #0f172a;
+            --secondary: #3b82f6;
+            --bg: #f8fafc;
+            --text: #334155;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.6; }
+        a { text-decoration: none; color: var(--secondary); }
+        a:hover { text-decoration: underline; }
+        
+        /* Header */
+        header { background-color: var(--primary); color: white; padding: 4rem 2rem; text-align: center; }
+        header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        header p { font-size: 1.2rem; color: #94a3b8; margin-bottom: 1.5rem; }
+        .contact-links a { color: white; margin: 0 10px; border: 1px solid white; padding: 8px 15px; border-radius: 5px; display: inline-block; transition: 0.3s; }
+        .contact-links a:hover { background-color: white; color: var(--primary); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 1000px; margin: 0 auto; padding: 3rem 2rem; }
+        h2 { font-size: 2rem; color: var(--primary); border-bottom: 3px solid var(--secondary); display: inline-block; margin-bottom: 1.5rem; padding-bottom: 5px; }
+
+        /* Projects Grid */
+        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+        .card { background-color: var(--card-bg); padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 4px solid var(--secondary); transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { color: var(--primary); margin-bottom: 10px; font-size: 1.3rem; }
+        .card p { font-size: 0.95rem; margin-bottom: 15px; }
+        .tags { margin-bottom: 15px; }
+        .tag { background-color: #e2e8f0; color: #475569; font-size: 0.8rem; padding: 4px 8px; border-radius: 4px; margin-right: 5px; display: inline-block; margin-bottom: 5px; }
+        
+        /* Skills */
+        .skills-container { display: flex; flex-wrap: wrap; gap: 10px; }
+        .skill-badge { background-color: var(--primary); color: white; padding: 8px 15px; border-radius: 20px; font-size: 0.9rem; }
+
+        /* Footer */
+        footer { text-align: center; padding: 2rem; background-color: var(--primary); color: white; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nicko Richardo</h1>
+        <p>Computer Science Student | Full-Stack Developer | UI/UX Enthusiast</p>
+        <div class="contact-links">
+            <a href="mailto:erasmariasutanto@gmail.com">Email Me</a>
+            <a href="https://id.linkedin.com/in/nicko-richardo-498768427" target="_blank">LinkedIn</a>
+            <a href="https://github.com/NickoRichardo" target="_blank">GitHub</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- About Section -->
+        <section style="margin-bottom: 3rem;">
+            <h2>Tentang Saya</h2>
+            <p>Mahasiswa <strong>Computer Science di Bina Nusantara (BINUS) University</strong> (Penerima Beasiswa PPTI) dengan fondasi kuat dalam pengembangan web full-stack, desain UI/UX, dan integrasi Machine Learning. Saya senang membangun solusi teknologi end-to-end yang fungsional dan berpusat pada pengguna.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section style="margin-bottom: 3rem;">
+            <h2>Keahlian Teknis</h2>
+            <div class="skills-container">
+                <span class="skill-badge">PHP</span>
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">Java & Kotlin</span>
+                <span class="skill-badge">Laravel</span>
+                <span class="skill-badge">Tailwind CSS</span>
+                <span class="skill-badge">MySQL</span>
+                <span class="skill-badge">Docker</span>
+                <span class="skill-badge">Android Studio</span>
+                <span class="skill-badge">Figma</span>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section>
+            <h2>Proyek Unggulan</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="card">
+                    <h3>🌱 Tanemin</h3>
+                    <p>Aplikasi web edukasi urban farming interaktif. Dilengkapi manajemen katalog tanaman, pelacakan progres, dan asisten AI bernama "Growee".</p>
+                    <div class="tags">
+                        <span class="tag">Full-Stack</span>
+                        <span class="tag">AI Assistant</span>
+                    </div>
+                    <a href="https://github.com/NickoRichardo/tanemin.git" target="_blank">Lihat Repositori &rarr;</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="card">
+                    <h3>🗣️ Lingulu</h3>
+                    <p>Platform belajar bahasa Inggris dengan evaluasi pelafalan AI. Menggunakan arsitektur microservices untuk frontend, backend (REST API), dan pemrosesan ML.</p>
+                    <div class="tags">
+                        <span class="tag">Laravel</span>
+                        <span class="tag">Machine Learning</span>
+                    </div>
+                    <a href="https://github.com/NickoRichardo/lingulu-frontend.git" target="_blank">Lihat Repositori &rarr;</a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="card">
+                    <h3>🎨 D'Classics & UX-LAB</h3>
+                    <p>Eksplorasi antarmuka dan pengembangan prototipe aplikasi toko buku mobile dengan fokus pada wireframing dan user experience (UX).</p>
+                    <div class="tags">
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">Android Studio</span>
+                        <span class="tag">Figma</span>
+                    </div>
+                    <a href="https://github.com/NickoRichardo/UX-LAB.git" target="_blank">Lihat Repositori &rarr;</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Nicko Richardo. Built with HTML & CSS.</p>
+    </footer>
+
+</body>
+</html>
